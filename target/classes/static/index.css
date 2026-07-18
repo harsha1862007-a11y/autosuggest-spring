@@ -1,20 +1,72 @@
-body{
-    margin: 0px;
+    body{
+        margin: 0px;
+        background-color: #b5f994dc;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        border-style: solid;
+        border-width: 4px;
+        text-align: center;
+        padding: 10px;
+        backdrop-filter: blur(10px);
+        background-color: #8d817491;
+        backdrop-filter: blur(12px);    
+        border-radius: 15px 15px 15px 15px;
+        gap: 30px;        
+    }
+    /* border-radius: 15px; */
+    .navbar a{
+        color: green;
+        padding: 20px;
+        box-shadow: inset 0px 0px 10px gray;
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease-in-out;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    .navbar a:hover{
+        color: white;
+        background-color: green;
+        box-shadow: inset 0px 0px 10px gray;
+        backdrop-filter: blur(10px);
+        transition: all 0.4s ease-in-out;
+        font-size: 20px;
+        transform: scale(1);
+        border-radius: 15px;
+        background-position: center;
+    }
+    .card{
+        border: 1px solid black;
+        width: 350px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 40px;
+        overflow: hidden;
+        /* margin-left: 40%; */
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        background-color: white;
+        transition: transform 0.4s ease;
+    }
+    .card:hover {
+    /* This zooms the card */
+    transform: scale(1.05); 
+    
+    /* Keep your existing hover effects like shadow if you want */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+    .card img{
+        /* width: 300px; */
+        width: 100%;
+    }
 
-h1{
+    .card button{
+        border-style: none;
+        padding: 7px;
+        width: 80%;
+        border-radius: 8px;
 
-    color: brown;
-}
-.navbar{
-    border-style: solid;
-    border-width: 1px;
-    border-color: gray;
-    padding: 20px;
-}
-
-.navbad a{
-    padding: 20px;
-    textddecoration: none;
-}
+    }
