@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Correction</title>
+    <style>
+        /* CSS selectors must match the class names in your HTML exactly */
+        .span1 {
+            display: block;
+            font-size: 30px;
+            color: #333;
+            text-align: left;
+        }
+        .span2 {
+            position: fixed;
+            top: 40px;
+            right: 20px;
+            font-size: 14px;
+            color: #000000;
+            text-align: right;
+            margin-top: -25px; 
+            border-style: solid;
+            border-width: 1px;
+            border-color: #d8df49;
+            border-radius: 5px;
+            padding: 5px;
+    
+        }
+        .span3 {
+            display: block;
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+        }
+        /* H1 and P are block elements by default */
+        h1 {
+            font-size: 75px;
+            color: #333;
+            text-align: center;
+            margin-top: 75px;
+        }
+        .heading {
+            font-size: 75px;
+            color: #43ca12;
+            text-align: center;
+            margin-top: 75px;
+
+        }
+        .p1 {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            margin-top: -40px;
+        }
+        /* Use 'input' not '.input' for the tag type */
+        input[type="text"] {
+            display: block;
+            width: 60%;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: 16px;
+            border: 10px solid #ccc;
+            text-align: center;
+            border-radius: 55px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Use class="classname" instead of <tag classname> -->
+    <span class="span1">&#x2699;</span>
+    <span class="span2">&#x2022; online | &#x1F552; -ms</span>
+    
+    <h1>
+        <span class="heading">Being</span><span>Infinity</span></h1>
+    
+    <p class="p1">One million phases. Four algorithms. Prefix based Auto Suggest.</p>
+    <input type="text" placeholder="&#128269; Start typing to search phrases..">
+</body>
+</html>
